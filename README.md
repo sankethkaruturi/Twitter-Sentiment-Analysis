@@ -8,7 +8,7 @@
 
 The ability to analyze user sentiment through tweets and comments can provide significant value to companies during __product launches__. By understanding customer behavior and incorporating __sentiment analysis__, companies can gain insights from user feedback. This empowers them to make informed decisions, take necessary actions, and improve overall __revenue__ by addressing customer concerns and making targeted improvements accordingly.
 
-![images](Twitter-sentiment-analysis-1.jpg)
+![images](https://github.com/sankethkaruturi/Images/blob/c0cf22c20043ecb06ed919d0de0d7c6138fcb947/Project%20Thumbnails/Twitter-sentiment-analysis-1.jpg)
 
 ## Machine Learning and Data Science
 
@@ -36,19 +36,19 @@ After performing __exploratory data analysis__, it could be seen based on the re
 
 We have an image depicting a dataframe and a list of features. We will utilize the 'text' feature as input and consider the 'sentiment' feature as our target variable. Our goal is to predict the likelihood of a text being categorized as positive, negative, or neutral.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Input%20Data.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Twitter-Sentiment-Analysis/blob/20938025caee646e6a00644c835297b067e8300e/images/Input%20Data.jpg"/>
 
 The countplot below illustrates that the majority of texts are classified as neutral sentiment, while the count of negative and positive texts is comparatively lower. This indicates a higher prevalence of neutral sentiments in the dataset.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Sentiment%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Twitter-Sentiment-Analysis/blob/20938025caee646e6a00644c835297b067e8300e/images/Sentiment%20countplot.jpg"/>
 
 Wordcloud gives a good representation by the presence of words based on their size. In other words, more frequent words appear in higher size as compared to others. Words such as "thank" and "day" are used most often in the positive tweets. 
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Positive%20wordcloud.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Twitter-Sentiment-Analysis/blob/20938025caee646e6a00644c835297b067e8300e/images/Positive%20wordcloud.jpg"/>
 
 The wordcloud provided showcases negative tweets within the dataset. Notably, recurring words like "hate" and "sad" are prevalent, indicating their significance in identifying negative sentiment.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Negative%20wordcloud.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Twitter-Sentiment-Analysis/blob/20938025caee646e6a00644c835297b067e8300e/images/Negative%20wordcloud.jpg"/>
 
 ## Hyperparameter Tuning 
 
@@ -58,7 +58,7 @@ In our project, after gaining a comprehensive understanding of various machine l
 
 The observed discrepancy between the training loss and the test loss suggests the presence of overfitting in the data. Despite this, the model could still be utilized for predictions, considering its potential ability to generalize well on unseen test data, despite its exceptionally strong performance on the training data.
 
-<img src = "https://github.com/suhasmaddali/Twitter-Sentiment-Analysis/blob/main/images/Model%20Performance.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Twitter-Sentiment-Analysis/blob/20938025caee646e6a00644c835297b067e8300e/images/Model%20Performance.jpg"/>
 
 ## 👉 Directions to download the repository and run the notebook 
 
